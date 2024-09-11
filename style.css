@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --text-color: #7f422d;
+  --pane-padding: 5px 42px;
+}
+
+body {
+  background-color: #f2e4d7;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 768px;
+  border-radius: 20px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.container .sec1 {
+  width: 90%;
+  overflow: hidden;
+  margin: 20px auto;
+  padding-top: 50px;
+}
+.container .sec1 img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.container .sec1 h2 {
+  color: #2d2c2a;
+  font-size: 42px;
+  margin: 20px 0;
+  font-family: "Young Serif", serif;
+}
+
+.container .sec1 p {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 10px;
+}
+
+.container .sec2 {
+  width: 90%;
+  margin: 20px auto;
+  background-color: #fff7fc;
+  border-radius: 20px;
+  padding: 20px;
+}
+.container .sec2 h2 {
+  font-size: 24px;
+  color: #7f2b4c;
+  margin-bottom: 10px;
+  font-family: "Young Serif", serif;
+}
+.container .sec2 ul {
+  margin: 10px 30px;
+}
+
+.container .sec2 ul li {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.container .sec3 {
+  width: 90%;
+  overflow: hidden;
+  margin: 20px auto;
+}
+
+.container .sec3 h2 {
+  color: var(--text-color);
+  margin-bottom: 20px;
+  font-family: "Young Serif", serif;
+}
+.container .sec3 ul {
+  padding: 5px;
+}
+
+.container .sec3 ul li,
+.container .sec3 ol li {
+  margin: 10px 25px;
+  padding-left: 20px;
+  line-height: 24px;
+}
+
+.container .sec3 ul li::marker,
+.container .sec3 ol li::marker {
+  color: var(--text-color);
+}
+hr {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #5c5c5c7a;
+}
+.container .sec3 ol li span {
+  font-weight: bold;
+}
+.table .row {
+  display: flex;
+  margin-left: 50px;
+}
+
+.table .row .col1 {
+  margin-right: 150px;
+}
+table {
+  margin: 20px 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+table tr td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.459);
+  padding: 10px 20px;
+}
+.lastchild {
+  border-bottom: none;
+}
+
+table tr td:last-child {
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+@media (max-width: 567px) {
+  .container {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+
+}
+.container .sec1 {
+    margin-top: 0;
+    width: 100%;
+    padding-top: 0;
+
+  }
+  .container .sec1 img {
+    width: 100%;
+    border-radius:  0;
+}
+.container .sec3:last-child {
+    margin-bottom: 0;
+}
+}
