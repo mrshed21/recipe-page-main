@@ -18,12 +18,12 @@ body {
 
 .container {
   background-color: #fff;
-  max-width: 768px;
+  max-width: 748px;
   border-radius: 20px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .container .sec1 {
